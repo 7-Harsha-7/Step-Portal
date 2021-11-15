@@ -46,7 +46,7 @@ app.post("/sign_up", (req,res) => {
         console.log("Record inserted successfully");
     });
 
-    return res.redirect('signup_success.html')
+    return res.redirect('confirmation.html')
 })
 
 app.get("/", (req, res) => {
