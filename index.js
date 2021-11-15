@@ -20,10 +20,7 @@ mongoose.connect(DB, {
     console.log('connection was succesful');
 }).catch((err) => console.log(err));
 
-// mongoose.connect('mongodb://localhost/test', {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// });
+
 
 var db = mongoose.connection;
 
