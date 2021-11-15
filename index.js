@@ -27,7 +27,7 @@ var db = mongoose.connection;
 // db.on('error', ()=>console.log("Error in connection to db"));
 // db.once('open', ()=>console.log("connected"));
 
-app.post("/sign_up", (req,res) => {
+app.post("/confirm", (req,res) => {
     var name = req.body.name;
     var email = req.body.email;
     var phno = req.body.phno;
